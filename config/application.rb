@@ -8,14 +8,13 @@ Bundler.require(*Rails.groups)
 
 module WagonTicketsPrl
   class Application < Rails::Application
-    # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
 
-    # Configuration for the application, engines, and railties goes here.
-    #
-    # These settings can be overridden in specific environments using the files
-    # in config/environments, which are processed later.
-    #
+    config.generators do |generate|
+      generate.assets false
+      generate.helper false
+      generate.test_framework false
+    end
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
   end
