@@ -1,0 +1,232 @@
+
+{
+
+    "tickets": [
+        {
+            "id": 836706,
+            "content": "peux tu m'expliquer la suite de l'exo stp? merci",
+            "exercise_path": "05-Rails/01-Rails-intro/02-Stupid-coaching",
+            "exercise_name": "Stupid Coaching",
+            "created_at": "2022-03-07T18:44:18.475Z",
+            "last_assigned_at": "2022-03-07T18:44:18.486Z",
+            "wait_duration": 0,
+            "student_journey": null,
+            "on_behalf": false,
+            "day_ordinal": "Fourth",
+            "table": null,
+            "exercise_url": "/camps/827/challenges?path=05-Rails%2F01-Rails-intro%2F02-Stupid-coaching",
+            "waited": false,
+            "current_user_is_last_assigned_user": false,
+            "is_mine": false,
+            "remote": false,
+            "owner_slack_uid": "U02V4K5LQ3V",
+            "slack_team_id": "T02NE0241",
+            "user": {
+                "id": 15018,
+                "avatar_url": "https://avatars.githubusercontent.com/u/96479940?v=4",
+                "name": "Danielle Misaine",
+                "product_name": null,
+                "alumnus_path": "/alumni/Danielle1305"
+            },
+            "assigned": {
+                "id": 11148,
+                "name": "Manon Schnetzler",
+                "avatar_url": "https://res.cloudinary.com/wagon/image/upload/c_fill,g_face,h_200,w_200/v1623098597/oczfnuyjh4pntffisrfp.jpg"
+            },
+            "preferred_teacher": {
+                "name": "Manon Schnetzler",
+                "avatar_url": "https://res.cloudinary.com/wagon/image/upload/c_fill,g_face,h_200,w_200/v1623098597/oczfnuyjh4pntffisrfp.jpg"
+            },
+            "policy": {
+                "current_user_can_update": false,
+                "current_user_can_cancel": true,
+                "current_user_can_mark_as_solved": false,
+                "current_user_can_take": true,
+                "current_user_can_leave": false
+            },
+            "routes": {
+                "api_v1_ticket_path": "/api/v1/tickets/836706",
+                "cancel_api_v1_ticket_path": "/api/v1/tickets/836706/cancel",
+                "mark_as_solved_api_v1_ticket_path": "/api/v1/tickets/836706/mark_as_solved",
+                "leave_api_v1_ticket_path": "/api/v1/tickets/836706/leave",
+                "take_api_v1_ticket_path": "/api/v1/tickets/836706/take"
+            }
+        },
+        {
+            "id": 836716,
+            "content": "Je met le code d'api ou ? \r\ndans le controllers ? parce que ça m'a l'air un peu louche ? ",
+            "exercise_path": "05-Rails/01-Rails-intro/03-Longest-word-game",
+            "exercise_name": "Longest Word Game",
+            "created_at": "2022-03-07T18:59:57.869Z",
+            "last_assigned_at": "2022-03-07T18:59:57.894Z",
+            "wait_duration": 0,
+            "student_journey": null,
+            "on_behalf": false,
+            "day_ordinal": "Fourth",
+            "table": null,
+            "exercise_url": "/camps/827/challenges?path=05-Rails%2F01-Rails-intro%2F03-Longest-word-game",
+            "waited": false,
+            "current_user_is_last_assigned_user": false,
+            "is_mine": false,
+            "remote": false,
+            "owner_slack_uid": "U02V3J2N1FD",
+            "slack_team_id": "T02NE0241",
+            "user": {
+                "id": 15011,
+                "avatar_url": "https://avatars.githubusercontent.com/u/97926618?v=4",
+                "name": "Alexandre desir",
+                "product_name": null,
+                "alumnus_path": "/alumni/AlexandreByDefault"
+            },
+            "assigned": {
+                "id": 9091,
+                "name": "Simon Boutin",
+                "avatar_url": "https://res.cloudinary.com/wagon/image/upload/c_fill,g_face,h_200,w_200/v1601293093/tkbfs5dtyyz3xnstbtex.jpg"
+            },
+            "policy": {
+                "current_user_can_update": false,
+                "current_user_can_cancel": true,
+                "current_user_can_mark_as_solved": false,
+                "current_user_can_take": true,
+                "current_user_can_leave": false
+            },
+            "routes": {
+                "api_v1_ticket_path": "/api/v1/tickets/836716",
+                "cancel_api_v1_ticket_path": "/api/v1/tickets/836716/cancel",
+                "mark_as_solved_api_v1_ticket_path": "/api/v1/tickets/836716/mark_as_solved",
+                "leave_api_v1_ticket_path": "/api/v1/tickets/836716/leave",
+                "take_api_v1_ticket_path": "/api/v1/tickets/836716/take"
+            }
+        },
+        {
+            "id": 836725,
+            "content": "je suis bloquée dans l'exercice 2",
+            "exercise_path": "05-Rails/01-Rails-intro/02-Stupid-coaching",
+            "exercise_name": "Stupid Coaching",
+            "created_at": "2022-03-07T19:04:47.991Z",
+            "last_assigned_at": null,
+            "wait_duration": 270.741856926,
+            "student_journey": null,
+            "on_behalf": false,
+            "day_ordinal": "First",
+            "table": null,
+            "exercise_url": "/camps/827/challenges?path=05-Rails%2F01-Rails-intro%2F02-Stupid-coaching",
+            "waited": true,
+            "current_user_is_last_assigned_user": false,
+            "is_mine": false,
+            "remote": false,
+            "owner_slack_uid": "U02V4FB9N4S",
+            "slack_team_id": "T02NE0241",
+            "user": {
+                "id": 15004,
+                "avatar_url": "https://avatars.githubusercontent.com/u/97915792?v=4",
+                "name": "Audrey Sufrin",
+                "product_name": null,
+                "alumnus_path": "/alumni/audreysufrin"
+            },
+            "preferred_teacher": {
+                "name": "Manon Schnetzler",
+                "avatar_url": "https://res.cloudinary.com/wagon/image/upload/c_fill,g_face,h_200,w_200/v1623098597/oczfnuyjh4pntffisrfp.jpg"
+            },
+            "policy": {
+                "current_user_can_update": false,
+                "current_user_can_cancel": true,
+                "current_user_can_mark_as_solved": false,
+                "current_user_can_take": true,
+                "current_user_can_leave": false
+            },
+            "routes": {
+                "api_v1_ticket_path": "/api/v1/tickets/836725",
+                "cancel_api_v1_ticket_path": "/api/v1/tickets/836725/cancel",
+                "mark_as_solved_api_v1_ticket_path": "/api/v1/tickets/836725/mark_as_solved",
+                "leave_api_v1_ticket_path": "/api/v1/tickets/836725/leave",
+                "take_api_v1_ticket_path": "/api/v1/tickets/836725/take"
+            }
+        },
+        {
+            "id": 836729,
+            "content": "problème pour push l'exercice",
+            "exercise_path": "05-Rails/01-Rails-intro/02-Stupid-coaching",
+            "exercise_name": "Stupid Coaching",
+            "created_at": "2022-03-07T19:09:18.311Z",
+            "last_assigned_at": null,
+            "wait_duration": 0.455513432,
+            "student_journey": null,
+            "on_behalf": false,
+            "day_ordinal": "Third",
+            "table": null,
+            "exercise_url": "/camps/827/challenges?path=05-Rails%2F01-Rails-intro%2F02-Stupid-coaching",
+            "waited": true,
+            "current_user_is_last_assigned_user": false,
+            "is_mine": false,
+            "remote": false,
+            "owner_slack_uid": "U02UWCEL6D9",
+            "slack_team_id": "T02NE0241",
+            "user": {
+                "id": 15001,
+                "avatar_url": "https://avatars.githubusercontent.com/u/92760728?v=4",
+                "name": "Désirée Bigorre",
+                "product_name": null,
+                "alumnus_path": "/alumni/DBigorre"
+            },
+            "policy": {
+                "current_user_can_update": false,
+                "current_user_can_cancel": true,
+                "current_user_can_mark_as_solved": false,
+                "current_user_can_take": true,
+                "current_user_can_leave": false
+            },
+            "routes": {
+                "api_v1_ticket_path": "/api/v1/tickets/836729",
+                "cancel_api_v1_ticket_path": "/api/v1/tickets/836729/cancel",
+                "mark_as_solved_api_v1_ticket_path": "/api/v1/tickets/836729/mark_as_solved",
+                "leave_api_v1_ticket_path": "/api/v1/tickets/836729/leave",
+                "take_api_v1_ticket_path": "/api/v1/tickets/836729/take"
+            }
+        }
+    ],
+    "on_duties": [
+        {
+            "id": 9091,
+            "first_name": "Simon",
+            "name": "Simon Boutin",
+            "avatar_url": "https://res.cloudinary.com/wagon/image/upload/c_fill,g_face,h_200,w_200/v1601293093/tkbfs5dtyyz3xnstbtex.jpg",
+            "busy": true,
+            "teacher_path": "/alumni/simboutin/teaching",
+            "alumnus_path": "/alumni/simboutin",
+            "teacher_path_accessible": true
+        },
+        {
+            "id": 11148,
+            "first_name": "Manon",
+            "name": "Manon Schnetzler",
+            "avatar_url": "https://res.cloudinary.com/wagon/image/upload/c_fill,g_face,h_200,w_200/v1623098597/oczfnuyjh4pntffisrfp.jpg",
+            "busy": true,
+            "teacher_path": "/alumni/manerschnetzlon/teaching",
+            "alumnus_path": "/alumni/manerschnetzlon",
+            "teacher_path_accessible": true
+        }
+    ],
+    "camp": {
+        "slug": "827",
+        "color": "red",
+        "team_day": false,
+        "skilled_ticket": false,
+        "on_lunch_break": false,
+        "lunch_break_ends_at": null
+    },
+    "policy": {
+        "current_user_can_see_dashboard": true,
+        "current_user_can_toggle_break": false,
+        "current_user_is_staff": true,
+        "current_user_have_ticket": false
+    },
+    "current_tickets": {
+        "missing_skill_names": null,
+        "assigned_ticket_count": 2
+    },
+    "current_user": {
+        "id": 6263
+    }
+
+}
