@@ -1,20 +1,24 @@
 class FetchNewTicketsJob < ApplicationJob
 
   def perform(batch_number)
-    # block that will be retried in case of failure
-    url = "https://kitt.lewagon.com/api/v1/camps/#{827}/tickets"
-    cookie = ENV.fetch("COOKIE")
+    @batch_number = batch_number
 
-    response = RestClient.get(url, cookie: cookie)
-    response = JSON.parse(response.body)
+    fetch_data
+    create_tickets
+  end
 
-    puts "\n\n\n\n#{response}\n\n\n\n\n"
-    # binding.pry
+  private
 
-    response = JSON.parse(File.read('public/fake_data/four_tickets_827_json.json'))
-    new_tickets = response["tickets"]
+  def fetch_data
+    url       = "https://kitt.lewagon.com/api/v1/camps/#{@batch_number}/tickets"
+    cookie    = ENV.fetch("KITT_COOKIE")
+    request   = RestClient.get(url, cookie: cookie)
+    @response = JSON.parse(request.body)
+  end
 
-    new_tickets.each do |tckt|
+  def create_tickets
+    tickets = @response["tickets"]
+    tickets.each do |tckt|
       Ticket.find_or_create_by(
         content: tckt["content"],
         student: Student.find_or_create_by(
@@ -25,6 +29,5 @@ class FetchNewTicketsJob < ApplicationJob
         )
       )
     end
-
   end
 end
