@@ -7,4 +7,7 @@ Rails.application.routes.draw do
   # authenticate :user, ->(u) { u.komin_admin? } do
     mount Sidekiq::Web => '/sidekiq'
   # end
+  resources :tickets, only: %i[] do
+    resources :votes, only: %i[create]
+  end
 end
