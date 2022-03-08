@@ -1,1 +1,5 @@
 @import 'tailwindcss/components';
+
+.avatar {
+  @apply  w-16 rounded-full mx-2;
+}

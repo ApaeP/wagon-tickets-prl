@@ -1,4 +1,20 @@
-<div data-controller="vote" data-vote-ticket-id-value="<%= ticket.id %>" class="hidden">
-  <%= ticket.content %>
-  <%= ticket.student.name %>
+<div data-controller="vote" data-vote-ticket-id-value="<%= ticket.id %>"
+     class="flex w-100 bg-blue-200 p-4 items-center m-4">
+  <p class="flex-grow"><%= ticket.content %></p>
+  <p><%= ticket.student.name %></p>
+  <%= image_tag ticket.student.avatar_url,
+                alt: "#{ticket.student.name} avatar",
+                class: "avatar" %>
+
+  <div class="max-h-full">
+    <button class="block bg-blue-400 cursor-pointer text-center py-2 px-4 rounded border-2 border-transparent hover:border-white hover:text-white"
+          data-action="click->vote#upvote">
+      <i class="fa-solid fa-circle-up"></i>
+    </button>
+    <button class="block bg-blue-400 cursor-pointer text-center py-2 px-4 rounded border-2 border-transparent hover:border-white hover:text-white"
+          data-action="click->vote#downvote">
+      <i class="fa-solid fa-circle-down"></i>
+    </button>
+  </div>
+  <p data-vote-target="score"><%= ticket.score %></p>
 </div>
